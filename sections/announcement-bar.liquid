@@ -27,7 +27,7 @@
     {%- endif -%}
     {%- if section.blocks.size == 1 -%}
       <div
-        class="announcement-bar{% if section.settings.show_social %} announcement-bar--one-announcement{% endif %}"
+        class="text-indigo-300 p-3 bg-gradient-to-t from-sky-300 to-blue-300 text-3xl announcement-bar{% if section.settings.show_social %} announcement-bar--one-announcement{% endif %}"
         role="region"
         aria-label="{{ 'sections.header.announcement' | t }}"
         {{ section.blocks.first.shopify_attributes }}
